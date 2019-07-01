@@ -1,0 +1,55 @@
+body, header, div, form, h1, input{
+    margin: 0;
+    padding: 0;
+}
+header {
+    height: 60px;
+    background-color: #2a2a2a;
+}
+header nav{
+    display: flex;
+}
+header nav div{
+    flex: 1;
+}
+header nav div:first-of-type a{
+    display: inline-block;
+    margin-left: 25%;
+    margin-top: 1.7%;
+}
+header nav div ul{
+    float: right;
+    margin-right: 20%;
+}
+header nav div ul li{
+    list-style-type: none;
+    text-decoration: none;
+    display: inline;
+}
+header nav div a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.7em;
+}
+form{
+    width: 35%;
+    background-color: #2a2a2a;
+    text-align: center;
+    color: white;
+    margin: auto;
+    margin-top: 10%;
+    height: auto;
+    border-radius: 20px;
+}
+form div,h1{
+    padding: 15px;
+}
+form div input{
+    height: 2.4em;
+    width: 45%;
+}
+input[type=submit]{
+    margin-bottom: 15px;
+    background: white;
+    font-size: 1.2em;
+}
